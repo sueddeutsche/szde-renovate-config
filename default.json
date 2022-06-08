@@ -1,14 +1,12 @@
 {
   "extends": ["config:base"],
-  "commitMessagePrefix": "chore: [{{{prettyDepType}}}]",
-  "commitMessageExtra": "from v{{{currentVersion}}} to {{#if isMajor}}v{{{newMajor}}}{{else}}{{#if isSingleVersion}}v{{{newVersion}}}{{else}}{{{newValue}}}{{/if}}{{/if}}",
   "encrypted": {
     "npmToken": "wcFMA/xDdHCJBTolAQ/+K/zvdE+c5c7hcpqtuEFGqonHC6RkYSoPk2RAaEAL6yUBWHeqMmthEhfFB5Vm0H7/GPn34n6E1meTXgwsEpuRcbRNTTqmOf8MxCaTuDpCLz+BU6UaUCbPoAl3Qbma/Rrwh5HPrBRNLqDF4EUbNIWdJGzM4IiPu1/CqyOQJYB9/fCsE/RqM+nnaMKszNLns/lq03MSE0CwcyNoDMOGnBDkrNMjb2WzLIQQhvCaX4yoJDCiyqvfOu5Kd86QfF3XCfDTJQhkNc+r9yG+cdwcXATv8kN5RU+Dm29DGicRbPGm0QSrEI0Ne6/jdZbj4Fi3Acrx10OVwvpRqg64Su+VOcizCqQKDW0BQIuOlXv5EpiVhlNOecpu8YijgPPKj+LqXUWKC45opeJMZAFo4+xCsPtsUxiAiFbc50o4mVSq/N8gWEz5Qe6GCyBwCB+qU0AW+j571C8JzGtHEDqvGF7cLQuJNQ+67DGbD9XP0JdNQSjFi6Pczci6REulSXnFZbZCnCtkhXtL6wUyXPNNbNUUNjnVcI3voNBJpKY8j3TZ8OK0iGSLEqB0akuPMizrnVhuyi/Guke5ZaHkyOO4ExFCmgKGRw14a0lm2yfVrexHqkTjQGUZBcEGiaVlhdHvEHeBexl+xAJ4nGUbYUEtNn8r/PLQjmbNahDgQRm8ZkHrQZWp7SLSewHiDo7FTulgpAew2yq4/8jLRvYuDhP9JVnOaMzDC6PxzmtQD+U0ZMQBCxJxhtS2GPtvwjSQEp1FRj42UYFTZ25joOzkgpQdf8soF/bdYtBgERewXq0fIeTg/exAQDKmwr/JSUmY/wJn7wMI37km1eTBcU4CPDB2Buc4RQ"
   },
   "packageRules": [
     {
       "matchPackageNames": ["node", "@types/node"],
-      "allowedVersions": "/^14\\..*/"
+      "allowedVersions": "/^16\\..*/"
     },
     {
       "matchPackageNames": ["@opensearch-project/opensearch"],
